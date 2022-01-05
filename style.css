@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 h3{
@@ -12,12 +13,21 @@ ul{
     padding: 0px;
 }
 
-li{
+/* li{
     width: 100%;
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 2px;
     background-color: white;
+} */
+
+header {
+    background-color: black;
+    color: white;
+}
+
+header h2{
+    padding: 4px;
 }
 
 span{
@@ -25,7 +35,7 @@ span{
 }
 
 .container{
-    width: 100%;
+    width: 1200px;
     height: 400px;
     background-color: black;
 }
@@ -50,6 +60,24 @@ span{
     color: white;
     background-color: red;
 }
+
+.infoitem{
+    /* display: inline; */
+    margin: 0px;
+    padding: 0px;
+    width: 10%;
+    height: 100%;
+    color: black;
+    background-color: white;
+    float: left;
+}
+
+.contentnote{
+    height: 100%;
+    background-color: yellow;
+}
+
+
 
 
 
